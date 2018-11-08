@@ -1,0 +1,63 @@
+
+.team_profile_item{
+    margin-left: 20px
+}
+.team_profile_item > div{
+    padding: 0px
+}
+.team_profile_item > div > div:first-child div{
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    padding: 4px;
+    background-color: #e8e8e8;
+    border: #b7b7b7 1px solid;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50),0 4px 20px 0 rgba(0,0,0,0.12)!important;
+}
+.team_profile_item > div > div:first-child div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.team_profile_item > div > div:nth-child(2){
+    min-height: 350px;
+    background-color: white;
+    border-top: #30aa44 7px solid;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.50),0 4px 20px 0 rgba(0,0,0,0.12)!important;
+    padding-top: 60px;
+    padding-bottom: 40px
+}
+.team_profile_item > div > div:nth-child(2) h4{
+    text-align: center;
+    margin-top: 20px
+}
+.team_profile_item > div > div:nth-child(2) > div > div:nth-child(2){
+    text-align: center;
+    color: grey
+}
+.team_profile_item > div > div:nth-child(2) p{
+    text-align: center;
+    margin-top: 40px
+}
+.team_profile_item > div > div:nth-child(2) img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.team_profile_item > div > div:nth-child(2) > div > div:last-child{
+    width: 100%;
+    padding-left: 70px;
+    margin-top: 50px
+}
+@media(max-width: 500px){
+    .team_profile_item{
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    .team_profile{
+        padding: 15px
+    }
+}

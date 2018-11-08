@@ -1,0 +1,117 @@
+body > header{
+    min-height: 470px;
+}
+.header_background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header_desc h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 120px;
+    text-decoration: underline
+}
+.header_desc p{
+    color: white;
+    text-align: center;
+    font-weight: bold
+}
+.header_desc .header_desc_btn{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px
+}
+.header_desc input{
+    display: inline-block;
+    margin: auto
+}
+body > section{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 380px
+}
+.nav_header{
+    min-height: 80px;
+    background-color: rgba(45,45,45,.45)
+}
+.nav_header > div:first-child img{
+    width: 100%;
+    height: 80px
+}
+.services_item{
+    background-color: white;
+    border: #b7b7b7 1px solid;
+    border-radius: 2px;
+    display: inline-block;
+    width: 200px
+}
+.services_item .header{
+    height: 120px
+}
+.services_item .desc{
+    height: 200px;
+    overflow-y: hidden
+}
+.services_item .header img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 #969696!important;
+    border-radius: 100px
+}
+.services_item .title{
+    text-align: center;
+    margin-top: 20px
+}
+.services_item .desc p{
+    text-align: center;
+    color: grey;
+    margin-top: 10px
+}
+.services_item .btn input{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto
+}
+.services_item:first-child .btn input{
+    background-color: skyblue
+}
+.services_item:nth-child(2) .btn input{
+    background-color: green;
+}
+.services_item:nth-child(3) .btn input{
+    background-color: yellow
+}
+.services_item:nth-child(4) .btn input{
+    background-color: #a92a84
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+@media(max-width: 500px){
+    .services_item:first-child{
+        margin-top: 160px;
+    }
+}
